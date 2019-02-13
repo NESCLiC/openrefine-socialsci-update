@@ -21,7 +21,7 @@ keypoints:
 
 Data needs to be consistent in a lot of ways so that you can work with it. The most obvious way to create consistency is by 
 formatting your data so that columns contain data for one variable of one data type and rows contain data for one observation (see the 
-lesson on [Spreadsheets](https://nesclic.github.io/spreadsheets-socsci-update/). But even if you have carefully structured your 
+lesson on [Spreadsheets](https://nesclic.github.io/spreadsheets-socsci-update/)). But even if you have carefully structured your 
 spreadsheet, errors can creep in that will cause you issues during analysis.
 
 Today we are going to talk about some of the common things that make data "messy". These can include:
