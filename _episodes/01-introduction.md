@@ -3,7 +3,9 @@ title: "Introduction"
 teaching: 10
 exercises: 0
 questions:
-- "What is OpenRefine useful for?"
+- "What is "messy data"?"
+- "What is OpenRefine?"
+- "Why use OpenRefine as part of your workflow?"
 objectives:
 - "Describe OpenRefine’s uses and applications."
 - "Differentiate data cleaning from data organization."
@@ -16,14 +18,37 @@ keypoints:
 
 # Lesson
 
-## Motivations for the OpenRefine Lesson
+## "Messy data"
 
-* Data is often very messy. OpenRefine provides a set of tools to allow you to identify and amend the messy data.
-* It is important to know what you did to your data. Additionally, journals, granting agencies, and other institutions are requiring documentation of the steps you took when working with your data. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
-* All actions are easily reversed in OpenRefine.
-* If you save your work it will be to a new file. OpenRefine always uses a copy of your data and _does not_ modify your original dataset.
-* Data cleaning steps often need repeating with multiple files. OpenRefine keeps track of all of your actions and allows them to be applied to different datasets.
-* Some concepts such as clustering algorithms are quite complex, but OpenRefine makes it easy to introduce them, use them, and show their power.
+Data needs to be consistent in a lot of ways so that you can work with it. The most obvious way to create consistency is by 
+formatting your data so that columns contain data for one variable of one data type and rows contain data for one observation (see the 
+lesson on [Spreadsheets](https://nesclic.github.io/spreadsheets-socsci-update/). But even if you have carefully structured your 
+spreadsheet, errors can creep in that will cause you issues during analysis.
+
+Today we are going to talk about some of the common things that make data "messy". These can include:
+* Typos and different spellings
+* Codes mixed in with full words
+* Different people entering things in different ways
+* Combining sources that use different codes that need to be reconciled
+* Updating codes or names from an older data set
+
+Most data is at least a little messy. You will probably spend a lot of time cleaning data, and it is an iterative process. Everyone who 
+works with data has to deal with this; you are not alone!
+
+##OpenRefine
+
+OpenRefine is an open-source tool that was built to help people clean data. It provides functions that let you investigate your
+data and then apply fixes to groups of data at the same time. You can also write short scripts to transform columns of data. 
+
+While at first glance it may look like using spreadsheet software like Excel there are a few key things that make OpenRefine a good
+data cleaning tool:
+* You work with a new version of your data in OpenRefine, leaving your original untouched.
+* OpenRefine lets you work with data as rows or records and columns, not just cells.
+* OpenRefine keeps track of the steps you go through from import to export.
+* You can "Undo" steps if you want to go back to an earlier version of the data.
+* You can copy the steps and apply them to another dataset with the same structure.
+* OpenRefine has features that let you cluster data that *looks* the same, simplifying clean up.
+* You can use open refine to get data from other sources through APIs.
 
 ## Features
 
@@ -44,6 +69,7 @@ If after installation and running OpenRefine, it does not automatically open for
 
 ## Getting help for OpenRefine.
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. These videos and other on OpenRefine can also be found on YouTube, search under 'OpenRefine' There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
+[GREL Functions Wiki](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions)
+[OpenRefine documentation](http://openrefine.org/documentation.html)
 
-{% include links.md %}
+
