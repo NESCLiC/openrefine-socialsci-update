@@ -68,7 +68,7 @@ If after installation and running OpenRefine, it does not automatically open for
 
 ## Getting help for OpenRefine.
 
-[GREL Functions Wiki](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions)
-[OpenRefine documentation](http://openrefine.org/documentation.html)
+* [GREL Functions Wiki](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions)
+* [OpenRefine documentation](http://openrefine.org/documentation.html)
 
 
