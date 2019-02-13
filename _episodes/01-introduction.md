@@ -3,7 +3,7 @@ title: "Introduction"
 teaching: 10
 exercises: 0
 questions:
-- "What is "messy data"?"
+- "What is messy data?"
 - "What is OpenRefine?"
 - "Why use OpenRefine as part of your workflow?"
 objectives:
@@ -15,7 +15,6 @@ keypoints:
 - "OpenRefine is a powerful, free and open source tool that can be used for data cleaning."
 - "OpenRefine will automatically track any steps allowing you to backtrack as needed and providing a record of all work done"
 ---
-
 # Lesson
 
 ## "Messy data"
