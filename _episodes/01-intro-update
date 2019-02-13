@@ -37,16 +37,18 @@ works with data has to deal with this; you are not alone!
 
 ##OpenRefine
 
+OpenRefine is an open-source tool that was built to help people clean data. It provides functions that let you investigate your
+data and then apply fixes to groups of data at the same time. You can also write short scripts to transform columns of data. 
 
-
-## Motivations for the OpenRefine Lesson
-
-* Data is often very messy. OpenRefine provides a set of tools to allow you to identify and amend the messy data.
-* It is important to know what you did to your data. Additionally, journals, granting agencies, and other institutions are requiring documentation of the steps you took when working with your data. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
-* All actions are easily reversed in OpenRefine.
-* If you save your work it will be to a new file. OpenRefine always uses a copy of your data and _does not_ modify your original dataset.
-* Data cleaning steps often need repeating with multiple files. OpenRefine keeps track of all of your actions and allows them to be applied to different datasets.
-* Some concepts such as clustering algorithms are quite complex, but OpenRefine makes it easy to introduce them, use them, and show their power.
+While at first glance it may look like using spreadsheet software like Excel there are a few key things that make OpenRefine a good
+data cleaning tool:
+* You work with a new version of your data in OpenRefine, leaving your original untouched.
+* OpenRefine lets you work with data as rows or records and columns, not just cells.
+* OpenRefine keeps track of the steps you go through from import to export.
+* You can "Undo" steps if you want to go back to an earlier version of the data.
+* You can copy the steps and apply them to another dataset with the same structure.
+* OpenRefine has features that let you cluster data that *looks* the same, simplifying clean up.
+* You can use open refine to get data from other sources through APIs.
 
 ## Features
 
@@ -66,3 +68,8 @@ If after installation and running OpenRefine, it does not automatically open for
 
 
 ## Getting help for OpenRefine.
+
+[GREL Functions Wiki](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions)
+[OpenRefine documentation](http://openrefine.org/documentation.html)
+
+
