@@ -34,7 +34,7 @@ Today we are going to talk about some of the common things that make data "messy
 Most data is at least a little messy. You will probably spend a lot of time cleaning data, and it is an iterative process. Everyone who 
 works with data has to deal with this; you are not alone!
 
-##OpenRefine
+## OpenRefine
 
 OpenRefine is an open-source tool that was built to help people clean data. It provides functions that let you investigate your
 data and then apply fixes to groups of data at the same time. You can also write short scripts to transform columns of data. 
