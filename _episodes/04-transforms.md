@@ -76,7 +76,7 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 {% include links.md %}
 
-###Dates
+### Dates
 
 > ## Exercise
 >
